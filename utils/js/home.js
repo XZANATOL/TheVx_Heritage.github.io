@@ -7,7 +7,7 @@ const container = document.getElementById('globe-container');
 
 // Create the globe instance and pass the container element
 const myGlobe = new Globe(container, {rendererConfig: { precision: 'mediump' }})
-  .globeImageUrl(`${window.location.protocol}/utils/imgs/World_blank_map_countries.PNG`) // Earth texture
+  .globeImageUrl(`https://xzanatol.github.io/TheVx_Heritage.github.io/utils/imgs/World_blank_map_countries.PNG`) // Earth texture
   .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png') // Topology for bump effect
   .backgroundColor("rgba(0, 0, 0, 0)")
   .pointsData([
