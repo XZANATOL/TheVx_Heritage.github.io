@@ -40,16 +40,27 @@ html, body{
 		padding: 0 0.7em;
 
 		.lang_wrapper{
-			margin-left: 1em;
 			direction: rtl;
 
-			select{
-				font-size: 18px;
-				font-weight: normal;
-				background: transparent;
-				border: none;
-				outline: none;
+			button{
+				background-color: transparent;
+				border: 0;
+				color: black;
+				width: 6em;
+			    display: flex;
+			    flex-direction: row;
+			    align-items: center;
+			    justify-content: space-between;
+			    padding: 0.35em 0.7em;
+			}
+
+			li{
 				cursor: pointer;
+
+				button{
+					width: 100%;
+					direction: ltr;
+				}
 			}
 		}
 
@@ -66,6 +77,8 @@ html, body{
 				position: absolute;
 				left: 0;
 				z-index: -1;
+				font-family: Alexandria;
+				font-size: 20px;
 			}
 		}
 
@@ -130,17 +143,18 @@ html, body{
 			direction: rtl;
 		}
 
-		.active{
-			color: var(--secondary-color);
-			font-weight: bold;
-		}
-
 		.nav-link{
 			font-size: 18px;
+			color: white;
 		}
 
 		.nav-link:hover{
 			color: var(--secondary-color);
+		}
+
+		.active{
+			color: var(--secondary-color);
+			font-weight: bold;
 		}
 		
 		ul{
@@ -200,6 +214,7 @@ main{
 		}
 
 		.chart_wrapper{
+			margin: 0 0.05em;
 			padding: 2em;
 
 			border-radius: 36px;
