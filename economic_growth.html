@@ -18,11 +18,16 @@
 	<section id="nav">
 		<div class="first_row">
 			<div class="lang_wrapper">
-				<select>
-					<option>عربي</option>
-					<option>انجليزي</option>
-					<option>فرنسي</option>
-				</select>
+				<div class="dropdown">
+				  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+				    عربي
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><button onclick="changeLang(this)" class="dropdown-item" href="#">عربي</button></li>
+				    <li><button onclick="changeLang(this)" class="dropdown-item" href="#">English</button></li>
+				    <li><button onclick="changeLang(this)" class="dropdown-item" href="#">French</button></li>
+				  </ul>
+				</div>
 			</div>
 
 			<div class="title d-none d-md-flex">
@@ -50,13 +55,13 @@
 			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 			        <li class="nav-item">
-			          <a class="nav-link active" aria-current="page" href="/home.html">الصفحة الرئيسية</a>
+			          <a class="nav-link" aria-current="page" href="https://xzanatol.github.io/TheVx_Heritage.github.io/home.html"> الرئيسية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link active" href="#">التنمية الاقتصادية</a>
 			        </li>
 			        <li class="nav-item">
 			          <a class="nav-link" href="#">البيئة والمناخ</a>
-			        </li>
-			        <li class="nav-item">
-			          <a class="nav-link" href="#">التنمية الاقتصادية</a>
 			        </li>
 			        <li class="nav-item">
 			          <a class="nav-link" href="#">التنمية الاجتماعية</a>
@@ -127,7 +132,7 @@
 
 
 
-		<section class="row gx-2 gy-3 section_details_wrapper">
+		<section class="row gx-3 gy-3 section_details_wrapper">
 			<div class="col-12 col-lg-6">
 				<div class="section_details">
 					<h3>شراكات وتعاون</h3>
