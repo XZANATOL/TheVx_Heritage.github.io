@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Heritage Project</title>
+
+	<link rel="stylesheet" type="text/css" href="utils/css/fonts_framework.css">
+	<link rel="stylesheet" type="text/css" href="utils/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="utils/css/economic_growth.css">
+
+	<script src="utils/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+	<script src="utils/js/economic_growth.js" defer></script>
+</head>
+<body>
+
+	<section id="nav">
+		<div class="first_row">
+			<div class="lang_wrapper">
+				<select>
+					<option>عربي</option>
+					<option>انجليزي</option>
+					<option>فرنسي</option>
+				</select>
+			</div>
+
+			<div class="title d-none d-md-flex">
+				<h2>المؤشر الثقافي في العالم الإسلامي</h2>
+			</div>
+
+			<div class="user_wrapper">
+				<button class="option_wrapper">
+					<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+					  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+					</svg>
+				</button>
+				<button class="option_wrapper login-wrapper">
+					تسجيل دخول إلي البوابة
+				</button>
+			</div>
+		</div>
+
+		<div class="second_row">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			  <div class="container-fluid">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="/home.html">الصفحة الرئيسية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">البيئة والمناخ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">التنمية الاقتصادية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">التنمية الاجتماعية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">الانفتاح والتنوع</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="#">خلفية عن المؤشر</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+	</section>
+
+
+
+	<main class="container">
+
+		<section class="row">
+			<div class="col-6 col-lg-3">
+				<section class="choices-wrapper">
+					<select>
+						<option>egypt</option>
+						<option>S.A</option>
+						<option>Sweden</option>
+					</select>
+				</section>
+			</div>
+
+			<div class="col-6 col-lg-3">
+				<section class="choices-wrapper">
+					<select>
+						<option>egypt</option>
+						<option>S.A</option>
+						<option>Sweden</option>
+					</select>
+				</section>
+			</div>
+		</section>
+
+		<section class="category_wrapper">
+			<h3 class="title_header">
+				تصنيف أذربيجان في المؤشر الثقافي في العالم الإسلامي 2026
+			</h3>
+
+			<div class="row gy-4 chart_wrapper">
+				<div class="col-12 col-lg-5">
+					<div class="countries_wrapper">
+						<canvas id="countriesContributed"></canvas>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-7">
+					<div class="data_wrapper">
+						<h3>
+							أذربيجان في المؤشر الثقافي في العالم الإسلامي 2026
+						</h3>
+						<p>
+							الإمارات العربية المتحدة في المؤشر الثقافي في العالم الإسلامي 2026الإمارات العربية المتحدة في المؤشر الثقافي في العالم الإسلامي 2026الإمارات العربية المتحدة في المؤشر الثقافي في العالم الإسلامي 2026الإمارات العربية المتحدة في المؤشر الثقافي في العالم الإسلامي 2026الإمارات العربية المتحدة في المؤشر الثقافي في العالم الإسلامي 2026الإمارات
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="row gx-2 gy-3 section_details_wrapper">
+			<div class="col-12 col-lg-6">
+				<div class="section_details">
+					<h3>شراكات وتعاون</h3>
+					<p>
+						تم تطوير هذا المؤشر بالتعاون بين منظمة العالم الإسلامي للتربية والعلوم والثقافة (الإيسيسكو) ووزارة الثقافة في المملكة العربية السعودية، بالشراكة مع الهيئات الثقافية الإقليمية والدولية لضمان تكامل البيانات وتحقيق أعلى معايير الجودة.
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-6">
+				<div class="section_details">
+					<h3>البيانات والتقارير</h3>
+					<p>
+						تُجمع بيانات المؤشر من مصادر موثوقة تشمل:
+
+						<ul>
+							<li>التقارير الحكومية والرسمية للدول الأعضاء.</li>
+							<li>البيانات الصادرة عن المنظمات الدولية مثل اليونسكو.</li>
+							<li>الدراسات الاستقصائية والاستبيانات الثقافية.</li>
+						</ul>
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="tables_wrapper">
+			<h3>الاستثمار في العلوم والابتكار</h3>
+
+			<table>
+			    <thead>
+			        <tr>
+			            <th>Scientific publications</th>
+			            <th>R&D investments</th>
+			            <th colspan="2">Venture capital</th>
+			            <th>International patent filings</th>
+			        </tr>
+			        <tr>
+			            <th></th>
+			            <th></th>
+			            <th>Deal numbers</th>
+			            <th>Deal values</th>
+			            <th></th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td class="up">▲ 8.7%<br>2022 - 2023</td>
+			            <td class="up">▲ 4.8%<br>2020 - 2021</td>
+			            <td class="up">▲ 3.2%<br>2022 - 2023</td>
+			            <td class="down">▼ -56.5%<br>2022 - 2023</td>
+			            <td class="up">▲ 24.8%<br>2022 - 2023</td>
+			        </tr>
+			        <tr>
+			            <td class="up">▲ 19.9%<br>2013 - 2023</td>
+			            <td class="up">▲ 14.7%<br>2011 - 2021</td>
+			            <td class="up">▲ 24.2%<br>2013 - 2023</td>
+			            <td class="up">▲ 35.5%<br>2013 - 2023</td>
+			            <td class="up">▲ 9.3%<br>2013 - 2023</td>
+			        </tr>
+			    </tbody>
+			</table>
+		</section>
+
+		<section class="tables_wrapper">
+			<h3>الاستثمار في العلوم والابتكار</h3>
+
+			<table>
+			    <thead>
+			        <tr>
+			            <th>Scientific publications</th>
+			            <th>R&D investments</th>
+			            <th colspan="2">Venture capital</th>
+			            <th>International patent filings</th>
+			        </tr>
+			        <tr>
+			            <th></th>
+			            <th></th>
+			            <th>Deal numbers</th>
+			            <th>Deal values</th>
+			            <th></th>
+			        </tr>
+			    </thead>
+			    <tbody>
+			        <tr>
+			            <td class="up">▲ 8.7%<br>2022 - 2023</td>
+			            <td class="up">▲ 4.8%<br>2020 - 2021</td>
+			            <td class="up">▲ 3.2%<br>2022 - 2023</td>
+			            <td class="down">▼ -56.5%<br>2022 - 2023</td>
+			            <td class="up">▲ 24.8%<br>2022 - 2023</td>
+			        </tr>
+			        <tr>
+			            <td class="up">▲ 19.9%<br>2013 - 2023</td>
+			            <td class="up">▲ 14.7%<br>2011 - 2021</td>
+			            <td class="up">▲ 24.2%<br>2013 - 2023</td>
+			            <td class="up">▲ 35.5%<br>2013 - 2023</td>
+			            <td class="up">▲ 9.3%<br>2013 - 2023</td>
+			        </tr>
+			    </tbody>
+			</table>
+		</section>
+	</main>
+
+	<section class="pre_footer">
+		<div class="container">
+			<p>
+				مؤشر الثقافة في العالم الإسلامي هو أداة تحليلية تهدف إلى قياس دور الثقافة في التنمية المستدامة وتعزيز الهوية الثقافية في الدول الإسلامية. يستند المؤشر إلى مجموعة من الأبعاد الثقافية، مثل التنمية الاقتصادية، التماسك الاجتماعي، الاستدامة البيئية، والانفتاح الثقافي، مما يوفر رؤية شاملة عن المشهد الثقافي. يعتمد على بيانات موثوقة من مصادر دولية وحكومية، مما يساعد صناع القرار في تطوير سياسات ثقافية فعالة. من خلال هذا المؤشر، يتم تقييم الإنفاق على الثقافة، المشاركة المجتمعية، وحماية التراث، مما يسهم في تحقيق التنمية الثقافية وتعزيز الحوار بين الثقافات.
+			</p>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row gx-5 gy-3">
+				<div class="col-12 col-md-4 footer-wrapper">
+					<div>
+						<img src="/utils/imgs/logo.png">
+					</div>
+				</div>
+
+				<div class="col-12 col-md-8 footer-wrapper">
+					<div>
+						<p>
+							المنظمة الإسلامية للتربية والعلوم والثقافة (الإيسيسكو) هي منظمة حكومية دولية متخصصة في مجالات التربية والعلوم والثقافة، تهدف إلى تعزيز التميز في التعليم، ودعم البحث العلمي، والحفاظ على التراث الثقافي وتعزيزه في العالم الإسلامي.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyrights">
+				<span>ⓒ Copyright ICESCO. All rights reserved</span>
+				|
+				<a href="">إخلاء مسؤولية</a>
+				|
+				<a href="">حقوق النسخ</a>
+				|
+				<a href="">سياسة الخصوصية</a>
+				|
+				<a href="">شروط الإستخدام</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

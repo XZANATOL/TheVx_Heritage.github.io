@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Heritage Project</title>
+
+	<link rel="stylesheet" type="text/css" href="utils/css/fonts_framework.css">
+	<link rel="stylesheet" type="text/css" href="utils/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="utils/css/home.css">
+
+	<script src="utils/js/bootstrap.bundle.min.js"></script>
+	<script src="https://unpkg.com/globe.gl@2.39.2/dist/globe.gl.min.js"></script>
+	<script src="utils/js/home.js" defer></script>
+</head>
+<body>
+
+	<section id="nav">
+		<div class="first_row">
+			<div class="lang_wrapper">
+				<div class="dropdown">
+				  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+				    عربي
+				  </button>
+				  <ul class="dropdown-menu">
+				    <li><button onclick="changeLang(this)" class="dropdown-item" href="#">عربي</button></li>
+				    <li><button onclick="changeLang(this)" class="dropdown-item" href="#">English</button></li>
+				    <li><button onclick="changeLang(this)" class="dropdown-item" href="#">French</button></li>
+				  </ul>
+				</div>
+			</div>
+
+			<div class="title d-none d-md-flex">
+				<h2>المؤشر الثقافي في العالم الإسلامي</h2>
+			</div>
+
+			<div class="user_wrapper">
+				<button class="option_wrapper">
+					<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+					  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+					</svg>
+				</button>
+				<button class="option_wrapper login-wrapper">
+					تسجيل دخول إلي البوابة
+				</button>
+			</div>
+		</div>
+
+		<div class="second_row">
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			  <div class="container-fluid">
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="/economic_growth.html">التنمية الاقتصادية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">البيئة والمناخ</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">التنمية الاجتماعية</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="#">الانفتاح والتنوع</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" aria-current="page" href="#">خلفية عن المؤشر</a>
+			        </li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+	</section>
+
+	<section id="header">
+		<div class="overlay"></div>
+		<div class="container">
+			<h1>
+				المؤشر الثقافي
+				<br />
+				في العالم الإسلامي
+			</h1>
+
+			<p>
+				أداة لقياس تأثير الثقافة على التنمية المستدامة في الدول الإسلامية، مع التركيز <br class="d-none d-lg-block"> على الاقتصاد، البيئة، والتنمية الاجتماعية، بالتنسيق مع أكثر من 50 دولة.
+			</p>
+
+			<a href="" class="button-explore">
+				استكشف المؤشر
+
+				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+				  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+				</svg>
+			</a>
+		</div>
+		<div class="credits">
+			تصوير دانييل بوركا – إسطنبول، تركيا، 2016.
+		</div>
+	</section>
+
+	<main class="container">
+		<p>
+			يعتمد المؤشر على مجموعة من المؤشرات الثقافية التي تندرج ضمن أبعاد متعددة، بما في ذلك:
+		</p>
+
+		<section class="row gx-4 gy-4">
+			<div class="col-12 col-lg-3">
+				<div class="card_wrapper">
+					<img src="/utils/imgs/main_cards/icon_1.svg">
+
+					<h3>
+						الثقافة من أجل الإنفتاح و التنوع
+					</h3>
+
+					<p>
+						قياس مستوى التسامح والتعددية الثقافية داخل المجتمعات الإسلامية
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-3">
+				<div class="card_wrapper">
+					<img src="/utils/imgs/main_cards/icon_1.svg">
+
+					<h3>
+						الثقافة من أجل التنمية الإجتماعية
+					</h3>
+
+					<p>
+						تقييم تأثير الثقافة في تحقيق التماسك الاجتماعي وتعزيز الهوية الثقافية
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-3">
+				<div class="card_wrapper">
+					<img src="/utils/imgs/main_cards/icon_1.svg">
+
+					<h3 class="long">
+						الثَّقافة من أجلِ البيئةِ والمناخ والقدرة على الصّمود
+					</h3>
+
+					<p>
+						دراسة تأثير الثقافة في الاستدامة البيئية والتكيف مع التغير المناخي
+					</p>
+				</div>
+			</div>
+
+			<div class="col-12 col-lg-3">
+				<div class="card_wrapper">
+					<img src="/utils/imgs/main_cards/icon_1.svg">
+
+					<h3>
+						الثقافة من أجل 	التنمية الإقتصادية
+					</h3>
+
+					<p>
+						قياس مستوى التسامح والتعددية الثقافية داخل المجتمعات الإسلامية
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<section class="globe_container">
+		<div class="container">
+			<div class="row gy-5">
+				<div class="col-12 col-lg-6">
+					<div id="globe-container"></div>
+				</div>
+				
+				<div class="col-12 col-lg-6 globe-text">
+					<h1>
+						قياس تأثير الثقافة
+						<br>
+						على التنمية المستدامة
+					</h1>
+
+					<p>
+						يهدف مؤشر الثقافة في العالم الإسلامي إلى قياس مدى تأثير الثقافة في التنمية المستدامة وتعزيز دورها في بناء مجتمعات متكاملة ومتنوعة داخل العالم الإسلامي. يسلط المؤشر الضوء على العلاقة بين الثقافة والتنمية من خلال تحليلات معمقة تستند إلى بيانات موثوقة، مما يسهم في دعم صناع القرار والمجتمعات في تعزيز السياسات الثقافية.
+					</p>
+
+					<a href="" class="button-explore">
+						استكشف المؤشر
+
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
+						  <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5"/>
+						</svg>
+					</a>
+				</div>
+			</div>
+
+			<div class="row gx-3 gy-3 globe_statistics">
+				<div class="col-12 col-lg-3">
+					<div class="card-wrapper">
+						<div>
+							<h4>1,750,324</h4>
+							<p>الانفتاح والتنوع</p>
+						</div>
+						<div>
+							<img src="/utils/imgs/main_cards/icon_1.svg">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3">
+					<div class="card-wrapper">
+						<div>
+							<h4>97,354</h4>
+							<p>التنمية الاجتماعية</p>
+						</div>
+						<div>
+							<img src="/utils/imgs/main_cards/icon_1.svg">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3">
+					<div class="card-wrapper">
+						<div>
+							<h4>38,470,154</h4>
+							<p>البيئة والمناخ</p>
+						</div>
+						<div>
+							<img src="/utils/imgs/main_cards/icon_1.svg">
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-3">
+					<div class="card-wrapper">
+						<div>
+							<h4>7,532</h4>
+							<p>التنمية الاقتصادية</p>
+						</div>
+						<div>
+							<img src="/utils/imgs/main_cards/icon_1.svg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row gx-5 gy-3">
+				<div class="col-12 col-md-4 footer-wrapper">
+					<div>
+						<img src="/utils/imgs/logo.png">
+					</div>
+				</div>
+
+				<div class="col-12 col-md-8 footer-wrapper">
+					<div>
+						<p>
+							المنظمة الإسلامية للتربية والعلوم والثقافة (الإيسيسكو) هي منظمة حكومية دولية متخصصة في مجالات التربية والعلوم والثقافة، تهدف إلى تعزيز التميز في التعليم، ودعم البحث العلمي، والحفاظ على التراث الثقافي وتعزيزه في العالم الإسلامي.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="copyrights">
+				<span>ⓒ Copyright ICESCO. All rights reserved</span>
+				|
+				<a href="">إخلاء مسؤولية</a>
+				|
+				<a href="">حقوق النسخ</a>
+				|
+				<a href="">سياسة الخصوصية</a>
+				|
+				<a href="">شروط الإستخدام</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
