@@ -427,14 +427,21 @@ footer{
 		height: 100%;
 		
 		display: flex;
-		justify-content: center;
-		align-items: center;
+		align-items: stretch;
 
 		text-align: right;
 		direction: rtl;
 		color: #efefef;
 
 		img{width: 100%}
+	}
+	.footer_logo_wrapper{
+		margin-top: 0 !important;
+
+		div{
+			display: flex;
+			align-items: center;
+		}
 	}
 
 	.copyrights{
