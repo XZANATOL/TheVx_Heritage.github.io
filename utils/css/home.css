@@ -261,12 +261,9 @@ main{
 		padding: 25% 2em;
 		transition: 0.5s;
 
-		img{
+		img, svg{
 			width: 140px;
-			margin-bottom: 2em;
-		}
-
-		svg{
+			height: 109px;
 			margin-bottom: 2em;
 		}
 
