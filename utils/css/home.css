@@ -39,6 +39,9 @@ html, body{
 		padding: 0 0.7em;
 
 		.lang_wrapper{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
 			direction: rtl;
 
 			button{
@@ -63,34 +66,18 @@ html, body{
 			}
 		}
 
-		.title{
-			color: var(--primary-color);
-			direction: rtl;
-			text-align: center;
-			align-items: center;
-			
-
-			*{
-				font-family: Alexandria;
-				font-size: 20px;
-				margin: 0;
-				width: 100vw;
-				position: absolute;
-				left: 0;
-				z-index: -1;
-			}
-		}
-
 		.user_wrapper{
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
-			width: 12.3em;
+			margin-left: 0.5em;
 
 			.option_wrapper{
 				display: flex;
 				align-items: center;
 				justify-content: center;
+				width: 40px;
+				margin-left: 0.5em;
 
 				border: 1px solid var(--primary-color);
 				border-radius: 50%;
@@ -110,6 +97,7 @@ html, body{
 			}
 
 			.login-wrapper{
+				width: 150px;
 				border-radius: 3em;
 				font-size: 15px;
 				font-weight: bold;
@@ -122,6 +110,14 @@ html, body{
 
 			.option_wrapper:hover{
 				transform: scale(1.03);
+			}
+		}
+
+		.brand-img-wrapper{
+
+			img{
+				width: auto;
+				height: 4em;
 			}
 		}
 
